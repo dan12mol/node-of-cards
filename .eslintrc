@@ -1,0 +1,16 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "curly": 0,
+    "no-use-before-define": 2,
+    "camelcase": 0,
+    "no-unused-vars": [2, {"args":"none"}],
+    "no-multi-spaces": 0,
+    "space-after-keywords": [2, "always"],
+    "space-before-blocks": [2, "always"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "node-of-cards",
+  "version": "0.1.0",
+  "description": "Node wrapper for Deck of Cards API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dan12mol/node-of-cards.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dan12mol/node-of-cards/issues"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/*.js && echo Lint passed."
+  },
+  "keywords": [
+    "wrapper",
+    "deck",
+    "of",
+    "cards",
+    "api",
+    "node"
+  ],
+  "author": "Dan Moldovan <danmol18@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.57.0"
+  }
+}
