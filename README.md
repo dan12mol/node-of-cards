@@ -241,6 +241,12 @@ Reponse **data** is of type
 }
 ```
 
+### using existing deck
+
+```javascript
+cards.setDeck(deck_id);
+//functions will now use this deck_id by default
+```
 
 ## Author
 
